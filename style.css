@@ -1,0 +1,59 @@
+html{
+    /*Tamaño base -> 1 rem = 16px*/
+    font-size: 13px;
+}
+@media (max-width: 500px){
+    body{
+        background-color: grey;
+        flex-direction: column;
+    }
+}
+@media (min-width: 100px){
+    body{
+        background-color: white;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar-pinterest{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+}
+.search-box {
+    width: 100%;
+
+}
+.imgcontent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1;
+    margin: 0;
+}
+
+.card-image {
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+}
+.card-image :hover{
+
+}
+
